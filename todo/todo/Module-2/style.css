@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@media screen and (min-width: 1024px) {
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        margin-top: 7.813vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .container{
+        width: 29.167vw;
+        box-sizing: border-box;
+        max-height: 34.462vw;
+        border: 1px solid #C4C4C4;
+        border-radius: 0.8vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .yellow{
+        background-color: #FFDC40;
+        width: 29vw;
+        height: 2.531vw;
+        border-top-left-radius: 0.8vw;
+        border-top-right-radius: 0.8vw;
+    }
+    .headToDoList{
+        font-family: 'Roboto';
+        margin: auto;
+        line-height: 2.604vw;
+        height: 2.951vw;
+        font-size: 2.231vw;
+        font-weight: 900;
+        margin-top: 1.128vw;
+        color: black;
+    }
+    .downIcon{
+        padding: 0;
+        margin: 0;
+        height: 0.868vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-top: 1.042vw;
+    }
+    .downIcon .down{
+        width: 2.17vw;
+        height: 1.302vw;
+        margin-right: 2.604vw;
+        opacity: 0.4;
+        cursor: pointer;
+    }
+    .down:hover{
+        opacity: 3;
+        color: black;
+    }
+    .upIcon{
+        display: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 0.868vw;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-top: 1.042vw;
+    }
+    .upIcon .up {
+        width: 2.17vw;
+        height: 1.302vw;
+        margin-right: 2.604vw;
+        opacity: 0.4;
+        cursor: pointer;
+    }
+    .up:hover{
+        opacity: 3;
+        color: black;
+    }
+    .toDoList {
+        box-sizing: border-box;
+        width: 24.826vw;
+        max-height: 17.361vw;
+        border: 1px solid #c4c4c4;
+        border-radius: 0.868vw;
+        margin: auto;
+        margin-top: 1.042vw;
+        overflow: auto;
+        overflow-x: hidden;
+        display: block;
+    }
+    .listMain{
+        padding: 0;
+        margin: 1.532vw 2.604vw 1.532vw 2.344vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        cursor: auto;
+    }
+    .listLi{
+        padding: 0;
+        margin: 1.532vw 2.604vw 1.532vw 2.344vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .remove{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 1.736vw;
+        height: 1.736vw;
+        border: 1px solid #C4C4C4;
+        border-radius: 6.163vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .removeInput{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 1.736vw;
+        height: 1.736vw;
+        border: 1px solid #C4C4C4;
+        border-radius: 6.163vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .removeInput:hover{
+        background-color: #833AE0;
+        border: 1px solid #833AE0;
+        cursor: pointer;
+    }
+    .remove:hover{
+        background-color: #833AE0;
+        border: 1px solid #833AE0;
+        cursor: pointer;
+    }
+    .todo{
+        width: 9.201vw;
+        height: 1.389vw;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.215vw;
+        line-height: 1.389vw;
+        color: #000000;
+        width: 90%;
+        border: none;
+    }
+    .toDoListInput{
+        width: 9.201vw;
+        height: 1.389vw;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.215vw;
+        line-height: 1.389vw;
+        color: #000000;
+        width: 90%;
+        border: none;
+    }
+    .toDoListInput:focus{
+        outline: none;
+    }
+    .todo:focus{
+        outline: none;
+    }
+    .action{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 13.021vw;
+        height: 3.646vw;
+        background: #833AE0;
+        border-radius: 6.163vw;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    .action:hover{
+        background-color: #681fc7;
+    }
+    .buttonMain{
+        margin: 0;
+        padding: 0;
+        margin-top: 1.563vw;
+        margin-bottom: 1.649vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .plus{
+        width: 3.646vw;
+        height: 3.646vw;
+        background: #9953F1;
+        border-radius: 6.163vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.215vw;
+        line-height: 1.389vw;
+        color: #FFFFFF;
+    }
+    button:hover .plus{
+        background-color: #9042f0;
+    }
+    .add{
+        padding: 0;
+        font-size: 1.2vw;
+        margin: 0;
+        width: 71%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: -0.868vw;
+        font-family: 'Roboto';
+        color: white;
+    }
+}
