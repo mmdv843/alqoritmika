@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav">
+                <div class="navLogo">
+                    <img src="./img/logo.svg" alt="bank logo">
+                </div>
+                <div class="navDirection">
+                    <ul class="navList">
+                        <li class="navListItem"><a href="#">БАНК</a></li>
+                        <li class="navListItem"><a href="#">БИЗНЕС</a></li>
+                        <li class="navListItem"><a href="#">ИНВЕСТИЦИИ</a></li>
+                        <li class="navListItem"><a href="#">МОБАЙЛ</a></li>
+                        <li class="navListItem"><a href="#">ПУТЕШЕСТВИЯ</a></li>
+                        <li class="navListItem"><a href="#">РАЗВЛЕЧЕНИЯ</a></li>
+                    </ul>
+                </div>
+                <div class="navRegister">
+                    <a href="#">ВОЙТИ</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="converter">
+            <div class="currencyBox">
+                <div class="converterHead">
+                    <h3>Конвертер валют онлайн</h3>
+                </div>
+                <form class="form">
+                    <div class="container">
+                        <div class="currencyBox">
+                            <div class="currencyTitle">
+                                У меня есть
+                            </div>
+                            <div class="inputBox">
+                                <input value="USD"  class= "base" type="radio" name="baseoptions" id="usd-from" checked>
+                                <label for="usd-from" class="btn inputsLabel">USD </label>
+
+                                <input value="RUB"  class= "base" type="radio" name="baseoptions" id="rub-from" >
+                                <label for="rub-from" class="btn inputsLabel">RUB</label>
+
+                                <input value="EUR"  class= "base" type="radio" name="baseoptions" id="eur-from" >
+                                <label for="eur-from" class="btn inputsLabel">EUR</label>
+
+                                <input value="GBP"  class= "base" type="radio" name="baseoptions" id="gbp-from" >
+                                <label for="gbp-from" class="btn inputsLabel">GBP</label>
+                            
+                            </div>
+                            <div class="costBox">
+                                <input value="1" type="number" id="input_amount">
+                                <br>
+                                <div class="costText" id="rate_from">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="currencyBox">
+                            <div class="currencyTitle">
+                                Хочу приобрестиь
+                            </div>
+                            <div class="inputBox">
+                                <input value="USD"  class="symbol" type="radio" name="symbolsoptions" id="usd-tu">
+                                <label for="usd-tu" class="btn inputsLabel">USD</label>
+
+                                
+                                <input value="RUB"  class="symbol" type="radio" name="symbolsoptions" id="rub-tu" checked>
+                                <label for="rub-tu" class="btn inputsLabel">RUB</label>
+
+                                <input value="EUR"  class="symbol" type="radio" name="symbolsoptions" id="eur-tu" >
+                                <label for="eur-tu" class="btn inputsLabel">EUR</label>
+
+                                <input value="GBP"  class="symbol" type="radio" name="symbolsoptions" id="gbp-tu">
+                                <label for="gbp-tu" class="btn inputsLabel">GBP</label>
+                               
+                            </div>
+                            <div class="costBox">
+                                <input value="1" type="number" id="output_amount">
+                                <br>
+                                <div class="costText" id="rate_to">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

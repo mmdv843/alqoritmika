@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+body ul {
+  list-style-type: none;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body input[type=radio] {
+  display: none;
+}
+
+body input[type=radio]:checked + label {
+  background-color: #833AE0;
+  color: white;
+}
+
+body input[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+body input[type=number]::-webkit-inner-spin-button,
+body input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+body header nav {
+  background-color: #f5f5f6;
+  padding: 10px;
+}
+
+body header nav .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+body header nav .nav .navDirection .navList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header nav .nav .navDirection .navList .navListItem {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 13px;
+}
+
+body header nav .nav .navDirection .navList .navListItem a {
+  color: #000;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+body header nav .nav .navDirection .navList .navListItem a:hover {
+  color: #833AE0;
+}
+
+body header nav .nav .navRegister a {
+  font-size: 13px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+body main .converter {
+  padding-top: 60px;
+}
+
+body main .converter .currencyBox .converterHead h3 {
+  width: 60%;
+  margin: auto;
+  font-weight: 700;
+  font-size: 36px;
+  color: #000000;
+}
+
+body main .converter .currencyBox form {
+  padding-top: 60px;
+}
+
+body main .converter .currencyBox form .container {
+  width: 60%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main .converter .currencyBox form .container .currencyBox {
+  width: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+body main .converter .currencyBox form .container .currencyBox .currencyTitle {
+  font-weight: 400;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 12px;
+  color: #9F9F9F;
+}
+
+body main .converter .currencyBox form .container .currencyBox .inputBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: solid 1px #d3d3d3;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  color: #a1a1a1;
+  margin: 7% 0;
+}
+
+body main .converter .currencyBox form .container .currencyBox .inputBox .inputsLabel:nth-last-child(4) {
+  border-left: 0;
+}
+
+body main .converter .currencyBox form .container .currencyBox .inputBox label {
+  border-left: solid 1px #d3d3d3;
+  padding: 15px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+body main .converter .currencyBox form .container .currencyBox .costBox {
+  padding: 12px;
+  border: 1px solid #E5E5E5;
+  border-radius: 3px;
+}
+
+body main .converter .currencyBox form .container .currencyBox .costBox input {
+  border: 0;
+  outline: 0;
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  width: 100%;
+}
+
+body main .converter .currencyBox form .container .currencyBox .costBox .costText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #C6C6C6;
+}
+/*# sourceMappingURL=style.css.map */
